@@ -4,32 +4,49 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/normalize.css" />
+    <link rel="stylesheet" href="./normalize.css" />
     <link rel="stylesheet" href="/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
     <title>Tweakful</title>
   </head>
-  <body class="font_Inter">
-    <header class="header bg_white padding_left_120 padding_right_120 ">
-      <div class="header__content ">
-        <div class="header__start ">
-          <img src="/images/Group 2.png" class="header__logo m_t_21 m_b_21 "></img>
-          <div class="header__tweakful p_24_24 w_800 m_l_9 font_Serif m_r_53 ">Tweakful</div>
+  <body class="default-font">
+    <header class="header bg-color_FEFEFE">
+      <div class="header__content">
+        <div class="header__start">
+          <div class="header__logo">          
+            <img src="/images/Group 2.png" class="header__logo-image"></img>
+            <p class="header__logo-text font-leifa font-weight_800 p_24_24">Tweakful</p>
+          </div>
           <nav class="header__nav ">
-            <a class="header__nav-item m_r_32">Home</a>
-            <a class="header__nav-item m_r_32">Features</a>
-            <a class="header__nav-item m_r_32">Pricing</a>
-            <a class="header__nav-item m_r_32">About Us</a>
+            <a class="header__nav-item">Home</a>
+            <a class="header__nav-item">Features</a>
+            <a class="header__nav-item">Pricing</a>
+            <a class="header__nav-item">About Us</a>
             <a class="header__nav-item">Help</a>
           </nav>
         </div>
-        <div class="header__end"><div class="header__button bg_blue m_t_26 m_b_22 padding_5_20">
-          <div class="header__button-text p_14 m_r_10 font_color_white">Book A Meeting</div>
-          <img src="/images/long_right.png"class="header__button-arrow">
+        <div class="header__end">
+          <div class="header__button button button_small">
+          <p class="header__button-text p_14">Book A Meeting</p>
+          <img src="/images/long_right.png"class="header__button-arrow button__arrow">
         </div></div>
       </div>
     </header>
     <main class="main-content">
-      <div class="hero"></div>
+      <div class="header-space"></div>
+      <div class="hero bg_white padding_145_120 border">
+        <div class="hero__content border">
+          <h1 class="h_1 w_700 m_t_0 m_b_30">This headline is the gist of the Your whole Website </h1>
+          <div class="hero__description p_20">And the description of hero section is follow up message after the punch of a great headline. So, make it short, simple, descriptive and to the point.</div>
+          <div class="hero__button-wrapper">
+            <div class="hero__button"></div>
+            <div class="hero__button-description"></div>
+          </div>
+        </div>
+        <img src = "images/Image (8).png" s="hero__image">
+      </div>
       <div class="features"></div>
       <div class="benefits"></div>
       <div class="case-studies"></div>
