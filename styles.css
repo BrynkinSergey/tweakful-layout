@@ -29,19 +29,21 @@
 .p_24_24 {
   font-size: 24px;
   line-height: 24px;
-  margin: 0 0;
 }
 
 .p_16 {
   font-size: 16px;
   line-height: 26px;
-  margin: 0 0;
 }
 
 .p_14 {
   font-size: 14px;
   line-height: 22px;
-  margin: 0 0;
+}
+
+.p_20 {
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .header {
@@ -74,7 +76,7 @@
 .header__logo {
   display: flex;
   align-items: center;
-  margin: auto 56px;
+  margin-right: 56px;
 }
 
 .header__logo-image {
@@ -103,7 +105,11 @@
 .button {
   padding: 16px 24px;
   background-color: #2e4fd7;
+  flex-shrink: 0;
+  flex-grow: 0;
   color: white;
+  height: fit-content;
+  width: fit-content;
 
   display: flex;
   justify-content: flex-start;
@@ -120,4 +126,61 @@
 
 .main-content {
   padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  padding: 145px 120px;
+  max-width: 1440px;
+
+  display: flex;
+}
+
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  width: 635px;
+  margin-right: 105px;
+}
+
+.hero__button-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 450px;
+  margin-bottom: 70px;
+}
+
+.h1 {
+  margin: 0 0 42px 0;
+  font-size: 64px;
+  line-height: 72px;
+  font-weight: 700;
+}
+
+.hero__description {
+  max-width: 500px;
+  margin-bottom: 42px;
+}
+
+.hero__button {
+  margin-right: 20px;
+}
+
+.hero__logos {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 20px;
+}
+
+.hero__image {
+  height: 100%;
+  width: auto;
 }
