@@ -26,6 +26,10 @@
   background-color: #fefefe;
 }
 
+.bg-color_E7EBFC {
+  background-color: #e7ebfc;
+}
+
 .p_24_24 {
   font-size: 24px;
   line-height: 24px;
@@ -36,6 +40,11 @@
   line-height: 26px;
 }
 
+.p_18 {
+  font-size: 18px;
+  line-height: 28px;
+}
+
 .p_14 {
   font-size: 14px;
   line-height: 22px;
@@ -44,6 +53,16 @@
 .p_20 {
   font-size: 20px;
   line-height: 30px;
+}
+
+.p_24 {
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.p_42 {
+  font-size: 42px;
+  line-height: 52px;
 }
 
 .header {
@@ -161,6 +180,18 @@
   font-weight: 700;
 }
 
+.h2 {
+  font-size: 52px;
+  line-height: 62px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 42px;
+  line-height: 52px;
+  font-weight: 700;
+}
+
 .hero__description {
   max-width: 500px;
   margin-bottom: 42px;
@@ -178,9 +209,191 @@
 
 .logo {
   margin-right: 20px;
+  width: fit-content;
+  height: fit-content;
 }
 
 .hero__image {
   height: 100%;
   width: auto;
+}
+
+.section {
+  width: 1110px;
+  padding: 130px 165px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.features__left-column {
+  width: 508px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.features__item {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.features__item:last-of-type {
+  margin-bottom: 0;
+}
+
+.features__item-icon {
+  width: 54px;
+  height: 54px;
+  margin-right: 24px;
+}
+
+.features__item-description {
+  width: 330px;
+}
+
+.features__item-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.features__right-column {
+  width: 540px;
+}
+
+.features__title {
+  margin: 0 0 16px 0;
+}
+
+.features__description {
+  margin-bottom: 28px;
+}
+
+.benefits__title {
+  margin: 0 0 38px 0;
+}
+
+.benefits__content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.benefits__item {
+  margin-right: 30px;
+  width: 45%;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.benefits__item-logo {
+  margin-right: 40px;
+}
+
+.case-studies__wrapper {
+  width: 1110px;
+  height: 468px;
+
+  padding: 116px 0 116px 95px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.case-studies__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.case-studies__title {
+  margin: 0 0 32px 0;
+}
+
+.case-studies__text {
+  width: 588px;
+  margin-bottom: 32px;
+}
+
+.process__title {
+  margin: 0 0 68px 0;
+}
+
+.process__flow {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.process__item-logo {
+  margin-bottom: 16px;
+}
+
+.process__item {
+  width: 20%;
+  margin-right: 30px;
+}
+
+.process__item-title {
+  margin-bottom: 4px;
+}
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cta__title {
+  text-align: center;
+  margin: 0 0 24px 0;
+}
+
+.cta__description {
+  text-align: center;
+  width: 826px;
+  margin-bottom: 60px;
+}
+
+.cta__button {
+  margin-bottom: 43px;
+}
+
+.cta__logos {
+  width: 1110px;
+  height: 80px;
+  border-top: #b4b4b4 solid 2px;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.cta__philips-logo {
+  margin-top: 61px;
+}
+
+.cta__logitech-logo {
+  margin-top: 56px;
+}
+
+.cta__amazon-logo {
+  margin-top: 60px;
+}
+
+.cta__facebook-logo {
+  margin-top: 52px;
+}
+
+.cta__google-logo {
+  margin-top: 55px;
+}
+
+.cta__linkedin-logo {
+  margin-top: 50px;
 }
